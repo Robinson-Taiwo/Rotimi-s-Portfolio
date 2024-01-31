@@ -1,0 +1,29 @@
+/* SquareBox.css */
+
+.square-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .background-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color:#483285; /* Green color */
+    transition: width 0.3s ease, height 0.3s ease; /* Add transitions for width and height */
+  }
+
+
+
+  /* hsl (255, 0,0) */
+  

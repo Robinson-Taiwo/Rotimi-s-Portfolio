@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    overflow: hidden;
+    /* scroll-behavior: smooth; */
+
+}
+
+.Home-container{
+    @apply  pb-[9rem] relative w-[100vw] bg-[#131313]  text-white 
+}
+
+.menu-icon{
+    @apply h-[1.5rem]
+}
+
+.hide{
+    @apply hidden
+}
+
+.navbar-container{
+    @apply flex items-center justify-between bg-opacity-85 py-[1rem] px-[1rem]   w-[100%] bg-[#131313]
+}
+
+.R{
+
+    @apply text-[2rem] text-[#3ebef0]
+}
+
+.navbar-logo{
+    font-family: 'Neucha', cursive;
+    color: transparent;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+  
+      
+    @apply text-[1.5rem]
+
+}
+
+
+.scrolled{
+    @apply fixed bg-[#100f0f] z-[999]
+}
+
+
+.navbar-items{
+    transition: top 0.5s ease; /* Animation duration and easing */
+    @apply absolute top-[5rem] left-[0] w-[100vw] flex flex-col   items-start   justify-between  py-[rem] text-[0.9rem]  bg-[#050606] text-[#989696] bg-opacity-100 
+}
+
+.navbar-item{
+    border: 0.1px solid #535353;
+    @apply border-t-[0.5px] py-[1.5rem] w-[100%] px-[1rem]
+}
+
+.taiwo{
+    @apply h-[45vh]
+}
+
+.hero-section{
+    @apply flex flex-col px-[1rem] pt-[2rem]
+}
+
+
+.overlay-open {
+    overflow: hidden;
+  }
+
+
+.hidden{
+
+    display: none;
+    
+}
+
+
+.big-text{
+    /* font-family: 'Neucha', cursive; */
+    color: transparent;
+ 
+    /* text-shadow: -1px -1px 0 #535353, 1px -1px 0 #535353, -1px 1px 0 #535353, 1px 1px 0 #535353;  */
+   
+
+    @apply flex items-center  justify-center text-[2.9rem]  font-semibold sphone:text-[2.5rem] text-[#3ebef0] 
+}
+
+
+.hero-section-title{
+    @apply py-[0.5rem] px-[1rem] text-[1.1rem] sphone:text-[0.9rem]
+}
+
+.hero-section-text{
+    /* font-family: 'Neucha', cursive; */
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    @apply  flex items-center justify-center  text-[1rem] mb-[1rem] mt-[1rem]  px-[0rem] text-[#535353] sphone:text-[0.8rem]
+}
+
+.hero-section-button{
+    
+    box-shadow: rgba(14, 81, 227, 0.25) 0px 54px 55px, rgba(14, 81, 227, 0.25) 0px -12px 30px, rgba(14, 81, 227, 0.25) 0px 4px 6px, rgba(14, 81, 227, 0.25) 0px 12px 13px, rgba(14, 81, 227, 0.25) 0px -3px 5px;
+
+    @apply px-[1rem]  py-[0.5rem] bg-[#3ebef0] w-fit rounded-lg font-bold flex items-center justify-center   sphone:text-[0.6rem] text-[0.8rem]  
+
+}
+
+
+.check-button{
+    @apply flex items-center text-black  justify-around mt-[1rem]
+}
+
+.sub-heading{
+   
+    @apply text-[2.1rem] text-[#535353] 
+}
+
+.download-resume{
+    @apply text-white  underline flex items-center justify-between text-[0.9rem] sphone:text-[0.7rem]
+}
+
+.greater{
+    @apply h-[1rem] w-[1rem]
+}
+
+.stat{
+    @apply h-[25rem] rounded-lg w-[93vw] bg-black mt-[2rem]
+}
+
+.stat-col{
+    border-top: 1px solid #535353;
+    @apply flex  p-[1rem] flex-col  justify-end
+}
+
+
+.num-stat{
+    @apply text-[1.6rem] font-bold text-[#3ebef0] mb-[1rem]
+}
+
+
+.stat-text{
+    @apply text-[1.rem] text-[#535353]
+}
+
+.stat-coli{
+    @apply flex  p-[1rem] flex-col  justify-end
+}
+
+
+.about_me{
+    @apply flex flex-col bg-black w-[100vw]  mt-[8rem] pt-[4rem] px-[1rem] pb-[1.5rem]
+}
+
+.aboutme{
+    @apply text-[#535353] text-[1.2rem] mb-[1rem] 
+}
+
+.about_h{
+    @apply text-[1.8rem] font-medium text-white 
+}
+
+.wild{
+    @apply text-[#3ebef0]
+}
+
+.about_texts{
+    @apply mt-[2rem] text-[#535353] pr-[0.5rem] text-[1.rem]
+}
+
+.taiwo{
+    @apply -rotate-2 h-[20rem]  bg-[black]  
+}
+
+.picture-container{
+    @apply rounded-full bg-[#3ebef0]
+    mt-[4rem] 
+}
+.precontact-u{
+    @apply rounded-lg  bg-[#1f1f1f] flex flex-col gap-[1rem] px-[1rem] py-[1rem] mt-[3rem]
+}
+
+.pre-contact-email{
+    @apply flex flex-col gap-[1rem]
+}
+
+.pre-contact-details{
+    @apply flex flex-row items-center  gap-[1rem]
+}
+
+.pre-contact-us-left{
+    @apply rounded-[50%] bg-[#30bef0] h-[2.857rem] w-[2.857rem]  items-center flex justify-center
+}
+
+.pre-c-{
+    @apply h-[2rem] w-[2rem] hover:scale-105
+}
+
+.list{
+    @apply text-white text-[0.9rem] flex flex-row gap-[1.5rem] items-center 
+}
+
+.lists{
+    @apply mt-[2rem] flex flex-col gap-[1.5rem]
+}
+
+.check{
+    @apply h-[1rem]
+}
+
+.resume-icon{
+    @apply h-[10rem] mt-[4rem] ml-[0rem]
+
+}
+
+.resume{
+    @apply px-[1rem]
+}
+
+.my-resume-text{
+    @apply text-[#535353] text-[1.1rem] mt-[1rem]
+}
+
+.problem-solu{
+  @apply text-[#30bef0]
+}
+
+.resume h1{
+    @apply text-[2rem] 
+}
+
+
+.experience-section{
+    @apply bg-[#1f1f1f] px-[1rem] py-[1.7rem] rounded-lg flex flex-col mt-[2rem]
+}
+
+.exp-div{
+
+@apply flex flex-row mb-[2rem] gap-[1rem]
+
+}
+
+.exp-div-left{
+    @apply bg-[black] rounded-[100%] items-center justify-center flex h-[2.5rem] w-[2.5rem] mt-[1rem] hover:bg-[#30bef0]
+}
+
+.right-arrow{
+    @apply h-[1.2rem] w-[1.2rem] 
+}
+
+.exp-time{
+    @apply text-[0.9rem] text-[#727272]
+}
+
+.exp-company{
+    @apply text-[#c7c7c7] text-[0.8rem]
+}
+
+.exp-div-right{
+    @apply flex-col gap-[0.5rem] flex
+}
+
+.es-left{
+    @apply flex flex-col 
+}
+
+
+.es-right{
+    @apply flex flex-col 
+}
