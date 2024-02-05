@@ -61,7 +61,7 @@
 }
 
 .hero-section{
-    @apply flex flex-col px-[1rem] pt-[2rem]
+    @apply flex flex-col px-[1rem] pt-[6rem]
 }
 
 
@@ -135,7 +135,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 
 .num-stat{
-    @apply text-[1.6rem] font-bold text-[#3ebef0] mb-[1rem]
+    @apply text-[2rem] font-bold text-[#3ebef0] mb-[1rem]
 }
 
 
@@ -188,12 +188,20 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     @apply flex flex-row items-center  gap-[1rem]
 }
 
+.email-us{
+    @apply text-[0.9rem]
+}
+
+.pre-contact-email{
+    @apply text-[0.9rem]
+}
+
 .pre-contact-us-left{
-    @apply rounded-[50%] bg-[#30bef0] h-[2.857rem] w-[2.857rem]  items-center flex justify-center
+    @apply rounded-[50%] bg-[#30bef0] h-[2.57rem] w-[2.57rem]  items-center flex justify-center
 }
 
 .pre-c-{
-    @apply h-[2rem] w-[2rem] hover:scale-105
+    @apply h-[1.5rem] w-[1.5rem] hover:scale-105
 }
 
 .list{
@@ -253,7 +261,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .exp-company{
-    @apply text-[#c7c7c7] text-[0.8rem]
+    @apply text-[#727272] text-[0.8rem]
 }
 
 .exp-div-right{
@@ -267,4 +275,30 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 .es-right{
     @apply flex flex-col 
+}
+
+
+.my-skills{
+    @apply bg-black pb-[7rem] pt-[6rem] mt-[6rem] pl-[0.8rem]
+}
+
+.my-skills-text{
+    @apply text-[1.1rem] font-medium text-[#727272] mb-[1.5rem]
+}
+
+.skills-big-text{
+    @apply  text-[1.8rem] mb-[2rem] font-medium flex flex-col
+}
+
+.skills-colour{
+    @apply text-[#30bef0]
+}
+
+
+.skills-text{
+    @apply text-[1rem] text-[#727272] leading-8
+}
+
+.skill-button{
+    @apply text-black mt-[1.5rem] w-fit rounded-2xl bg-[#30bef0] px-[1.8rem] py-[0.8rem] flex flex-row  gap-[0.4rem] items-center font-bold 
 }

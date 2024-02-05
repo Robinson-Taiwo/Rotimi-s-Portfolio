@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { FC, useEffect, useState } from 'react'
+import  { FC, useEffect, useState } from 'react'
 import menu from "/assets/icons/menu.svg"
 import gr from "/assets/icons/black_arrow.svg"
 import wa from "/assets/icons/whitearrow.svg"
@@ -14,7 +14,7 @@ import call from "/assets/icons/call.svg"
 import rightArrow from "/assets/icons/arrow-up-right.svg"
 
 
-import taiwo from "/assets/images/taiwo.png"
+// import taiwo from "/assets/images/taiwo.png"
 
 
 
@@ -54,7 +54,7 @@ const Home: FC = () => {
 
 
     return (
-        <body className={`Home-container ${modal && "h-[100vh]"}`} >
+        <div className={`Home-container ${modal && "h-[100vh]"}`} >
 
             {/* <div className={modal ? "modal" : "hidden"}>
                 
@@ -269,7 +269,7 @@ const Home: FC = () => {
                         <div className="pre-contact-us-right">
 
                             <div className="email-us">
-                                Email Me
+                                Send an Email
                             </div>
 
                             <div className="pre-contact-email">
@@ -371,7 +371,7 @@ const Home: FC = () => {
                                 </div>
 
                                 <div className="exp-company">
-                                    Fivvr
+                                    Fiverr
                                 </div>
 
                             </div>
@@ -414,15 +414,45 @@ const Home: FC = () => {
                     </div>
 
 
-
-
-
-
-
-
-
                 </div>
 
+
+
+
+
+            </section>
+            <section className="my-skills">
+
+                <h5 className="my-skills-text">
+
+                    My Skils
+                </h5>
+
+                <h2 className="skills-big-text">
+                    Let's Explore My Popular <span className='skills-colour' >Skills & Experience</span>
+
+
+                </h2>
+
+                <p className="skills-text">
+
+                    with a total of 2+ years learning and writing code, i have learnt a great deal about several Programming Languages, libraries and frameworks. building projects from simple to complex.
+
+                </p>
+
+                <div className="skill-button">
+                    Learn More <img className='greater' src={gr} alt="" />
+                </div>
+
+
+                <section className="skill-block">
+
+
+
+
+
+
+                </section>
 
 
 
@@ -430,7 +460,7 @@ const Home: FC = () => {
 
 
 
-        </body>
+        </div>
     )
 }
 
