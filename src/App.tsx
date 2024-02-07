@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import  { FC } from 'react'
 // import SquareBox from './components/SquareBox'
 import Home from './components/Home'
 
