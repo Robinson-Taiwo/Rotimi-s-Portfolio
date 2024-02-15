@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import  { FC, useEffect, useState } from 'react'
+import { FC, useEffect, useState } from 'react'
 import menu from "/assets/icons/menu.svg"
 import gr from "/assets/icons/black_arrow.svg"
 import wa from "/assets/icons/whitearrow.svg"
@@ -10,12 +10,32 @@ import resume from "/assets/icons/resume.svg"
 import message from "/assets/icons/message.svg"
 
 import call from "/assets/icons/call.svg"
+import figma from "/assets/icons/figma.svg"
+import html from "/assets/icons/html.svg"
+
+import css from "/assets/icons/css.svg"
+
+import js from "/assets/icons/js.svg"
+
+import react from "/assets/icons/react.svg"
+
+import typescript from "/assets/icons/typescript.svg"
+
+import node from "/assets/icons/node.svg"
+
+
+import redux from "/assets/icons/redux.svg"
+
+import tailwind from "/assets/icons/tailwind.svg"
 
 import rightArrow from "/assets/icons/arrow-up-right.svg"
 
 
 // import taiwo from "/assets/images/taiwo.png"
 
+import getlinked from "/assets/images/getlinked.png"
+
+import itpa from "/assets/images/itpa.png"
 
 
 import t from "/assets/images/omo_3.png"
@@ -447,7 +467,167 @@ const Home: FC = () => {
 
                 <section className="skill-block">
 
+                    <div className="skill-col">
 
+
+                        <div className="skill-box">
+
+                            <div className="skill-box-icon">
+                                <img src={html} alt="" className="box-icon h-[100%]" />
+                            </div>
+
+                            <div className="skill-box-title">
+                                Html
+                            </div>
+
+                            <div className="skill-box-stat">
+                                95%
+                            </div>
+
+
+                        </div>
+
+
+                        <div className="skill-box">
+
+                            <div className="skill-box-icon">
+                                <img src={css} alt="" className="box-icon" />
+                            </div>
+
+                            <div className="skill-box-title">
+                                css
+                            </div>
+
+                            <div className="skill-box-stat">
+                                95%
+                            </div>
+
+
+                        </div>
+
+
+                        <div className="skill-box">
+
+                            <div className="skill-box-icon">
+                                <img src={js} alt="" className="box-icon" />
+                            </div>
+
+                            <div className="skill-box-title">
+                                Javascript
+                            </div>
+
+                            <div className="skill-box-stat">
+                                95%
+                            </div>
+
+
+                        </div>
+
+                        <div className="skill-box">
+
+                            <div className="skill-box-icon">
+                                <img src={react} alt="" className="box-icon" />
+                            </div>
+
+                            <div className="skill-box-title">
+                                React
+                            </div>
+
+                            <div className="skill-box-stat">
+                                95%
+                            </div>
+
+
+                        </div>
+
+                        <div className="skill-box">
+
+                            <div className="skill-box-icon">
+                                <img src={typescript} alt="" className="box-icon" />
+                            </div>
+
+                            <div className="skill-box-title">
+                                Typescript
+                            </div>
+
+                            <div className="skill-box-stat">
+                                95%
+                            </div>
+
+
+                        </div>
+
+                        <div className="skill-box">
+
+                            <div className="skill-box-icon">
+                                <img src={redux} alt="" className="box-icon" />
+                            </div>
+
+                            <div className="skill-box-title">
+                                Redux
+                            </div>
+
+                            <div className="skill-box-stat">
+                                95%
+                            </div>
+
+
+                        </div>
+
+                        <div className="skill-box">
+
+                            <div className="skill-box-icon">
+                                <img src={tailwind} alt="" className="box-icon" />
+                            </div>
+
+                            <div className="skill-box-title">
+                                Tailwind
+                            </div>
+
+                            <div className="skill-box-stat">
+                                95%
+                            </div>
+
+
+                        </div>
+
+                        <div className="skill-box">
+
+                            <div className="skill-box-icon">
+                                <img src={figma} alt="" className="box-icon" />
+                            </div>
+
+                            <div className="skill-box-title">
+                                figma
+                            </div>
+
+                            <div className="skill-box-stat">
+                                95%
+                            </div>
+
+
+                        </div>
+
+
+                        <div className="skill-box">
+
+                            <div className="skill-box-icon">
+                                <img src={node} alt="" className="box-icon" />
+                            </div>
+
+                            <div className="skill-box-title">
+                                Node
+                            </div>
+
+                            <div className="skill-box-stat">
+                                95%
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
 
 
 
@@ -456,7 +636,185 @@ const Home: FC = () => {
 
 
 
+
             </section>
+
+
+            <div className="latest-work">
+
+
+
+                <div className="lw-head">
+
+
+                    <h4 className="lw-sub-heading">
+                        Latest Works
+                    </h4>
+
+                    <h2 className="lw-heading">
+
+                        Explore My Popular <span className="blue-text">Projects</span>
+                    </h2>
+
+                </div>
+
+
+                <div className="project-card">
+
+                    <div className="project-card-image">
+                        <img src={getlinked} alt="" className="card-image" />
+                    </div>
+
+                    <div className="project-card-details">
+
+                        <div className="card-sub-text">
+                            Web Development
+                        </div>
+
+                        <div className="card-title">
+                            Get-Linked Hackathon Website
+                        </div>
+
+
+                        <div className="project-card-text">
+
+                            Get-Linked Hackathon website is a website is a web development challange released in 2022 to prepare for the get-linked hackathon
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="project-card">
+
+                    <div className="project-card-image">
+                        <img src={itpa} alt="" className="card-image" />
+                    </div>
+
+                    <div className="project-card-details">
+
+                        <div className="card-sub-text">
+                            Web Development (live project)
+                        </div>
+
+                        <div className="card-title">
+                           Information Technology Professionals Association Website
+                        </div>
+
+
+                        <div className="project-card-text">
+
+                           Official website for information technology professional association built eith React.js and Tailwind css
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="project-card">
+
+                    <div className="project-card-image">
+                        <img src={getlinked} alt="" className="card-image" />
+                    </div>
+
+                    <div className="project-card-details">
+
+                        <div className="card-sub-text">
+                            Web Development
+                        </div>
+
+                        <div className="card-title">
+                            Get-Linked Hackathon Website
+                        </div>
+
+
+                        <div className="project-card-text">
+
+                            Get-Linked Hackathon website is a website is a web development challange released in 2022 to prepare for the get-linked hackathon
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="project-card">
+
+                    <div className="project-card-image">
+                        <img src={getlinked} alt="" className="card-image" />
+                    </div>
+
+                    <div className="project-card-details">
+
+                        <div className="card-sub-text">
+                            Web Development
+                        </div>
+
+                        <div className="card-title">
+                            Get-Linked Hackathon Website
+                        </div>
+
+
+                        <div className="project-card-text">
+
+                            Get-Linked Hackathon website is a website is a web development challange released in 2022 to prepare for the get-linked hackathon
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="project-card">
+
+                    <div className="project-card-image">
+                        <img src={getlinked} alt="" className="card-image" />
+                    </div>
+
+                    <div className="project-card-details">
+
+                        <div className="card-sub-text">
+                            Web Development
+                        </div>
+
+                        <div className="card-title">
+                            Get-Linked Hackathon Website
+                        </div>
+
+
+                        <div className="project-card-text">
+
+                            Get-Linked Hackathon website is a website is a web development challange released in 2022 to prepare for the get-linked hackathon
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="project-card">
+
+                    <div className="project-card-image">
+                        <img src={getlinked} alt="" className="card-image" />
+                    </div>
+
+                    <div className="project-card-details">
+
+                        <div className="card-sub-text">
+                            Web Development
+                        </div>
+
+                        <div className="card-title">
+                            Get-Linked Hackathon Website
+                        </div>
+
+
+                        <div className="project-card-text">
+
+                            Get-Linked Hackathon website is a website is a web development challange released in 2022 to prepare for the get-linked hackathon
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
 
 
 

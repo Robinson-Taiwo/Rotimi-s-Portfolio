@@ -279,7 +279,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 
 .my-skills{
-    @apply bg-black pb-[7rem] pt-[6rem] mt-[6rem] pl-[0.8rem]
+    @apply bg-black pb-[7rem] pt-[6rem] mt-[6rem] px-[0.8rem]
 }
 
 .my-skills-text{
@@ -301,4 +301,83 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 .skill-button{
     @apply text-black mt-[1.5rem] w-fit rounded-2xl bg-[#30bef0] px-[1.8rem] py-[0.8rem] flex flex-row  gap-[0.4rem] items-center font-bold 
+}
+
+.skill-box-icon{
+    @apply h-[5rem] w-[5rem]
+}
+
+.skill-box{
+    @apply bg-[#1f1f1f] w-[9rem] h-[12rem] items-center justify-center flex flex-col gap-[1rem] rounded-2xl sphone:w-[8rem] sphone:h-[11rem] sphone:gap-[0.5rem]
+}
+
+.skill-block{
+    @apply flex flex-col mt-[2rem]
+}
+
+
+.skill-col{
+    @apply grid grid-cols-2 gap-y-[1rem] pl-[1rem] grid
+}
+
+
+.skill-box-stat{
+    @apply bg-[#181616] py-[0.5rem] rounded-xl w-[80%] items-center flex justify-center
+}
+
+.box-icon{
+    @apply h-[100%] w-[100%]
+}
+
+.latest-work{
+    @apply pt-[5rem] pb-[3rem]  bg-[#222121]
+}
+
+.blue-text{
+    @apply text-[#30bef0]
+}
+
+.lw-head{
+    @apply flex items-center justify-center flex-col mb-[4rem]
+}
+
+.lw-heading{
+    @apply text-[2rem] text-center 
+}
+
+.lw-sub-heading{
+    @apply text-[1.2rem] mb-[0.8rem] text-[#a4a2a2]
+}
+
+
+
+
+/* project card section */
+
+.project-card{
+    @apply flex flex-col mt-[6rem]
+}
+
+.card-image{
+    @apply w-[90%] 
+}
+
+.project-card-image{
+    @apply flex items-center justify-center
+}
+
+.project-card-details{
+    @apply flex mt-[1rem] flex-col px-[1rem] gap-[1rem]
+}
+
+.card-sub-text{
+    @apply text-[0.95rem] text-[#30bef0] 
+}
+
+.card-title{
+    @apply text-[1.5rem] font-semibold hover:underline hover:text-[#30bef0] duration-75 ease-in-out transition-all
+}
+
+.project-card-text{
+    @apply text-[#a4a2a2] text-[0.9rem]
 }
