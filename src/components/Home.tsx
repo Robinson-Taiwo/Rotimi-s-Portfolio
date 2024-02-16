@@ -35,7 +35,16 @@ import rightArrow from "/assets/icons/arrow-up-right.svg"
 
 import getlinked from "/assets/images/getlinked.png"
 
+import artjunks from "/assets/images/artjunks.png"
+
 import itpa from "/assets/images/itpa.png"
+
+import kwtmss from "/assets/images/kwtmss.png"
+
+
+import finsweet from "/assets/images/finsweet.png"
+
+import store from "/assets/images/store.png"
 
 
 import t from "/assets/images/omo_3.png"
@@ -697,13 +706,13 @@ const Home: FC = () => {
                         </div>
 
                         <div className="card-title">
-                           Information Technology Professionals Association Website
+                            Information Technology Professionals Association Website
                         </div>
 
 
                         <div className="project-card-text">
 
-                           Official website for information technology professional association built eith React.js and Tailwind css
+                            Official website for information technology professional association built eith React.js and Tailwind css
                         </div>
                     </div>
 
@@ -712,7 +721,7 @@ const Home: FC = () => {
                 <div className="project-card">
 
                     <div className="project-card-image">
-                        <img src={getlinked} alt="" className="card-image" />
+                        <img src={kwtmss} alt="" className="card-image" />
                     </div>
 
                     <div className="project-card-details">
@@ -722,7 +731,57 @@ const Home: FC = () => {
                         </div>
 
                         <div className="card-title">
-                            Get-Linked Hackathon Website
+                            Kwara State Transport Management System Website
+                        </div>
+
+
+                        <div className="project-card-text">
+
+                            KWTMS website is a website project for tacking and obtaining the information of all transport vehicles and drivers in Kwara state
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="project-card">
+
+                    <div className="project-card-image">
+                        <img src={finsweet} alt="" className="card-image" />
+                    </div>
+
+                    <div className="project-card-details">
+
+                        <div className="card-sub-text">
+                            Web Development
+                        </div>
+
+                        <div className="card-title">
+                            Finsweet Blog Website
+                        </div>
+
+
+                        <div className="project-card-text">
+
+                            A blog website built to demonstrate functionality of a blog and routing  with react--router dom
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="project-card">
+
+                    <div className="project-card-image">
+                        <img src={artjunks} alt="" className="card-image" />
+                    </div>
+
+                    <div className="project-card-details">
+
+                        <div className="card-sub-text">
+                            Web Development
+                        </div>
+
+                        <div className="card-title">
+                            ArtJunks Blog Website
                         </div>
 
 
@@ -737,67 +796,18 @@ const Home: FC = () => {
                 <div className="project-card">
 
                     <div className="project-card-image">
-                        <img src={getlinked} alt="" className="card-image" />
+                        <img src={store} alt="" className="card-image" />
                     </div>
 
                     <div className="project-card-details">
 
                         <div className="card-sub-text">
-                            Web Development
+                            Web Development (unfinished project)
                         </div>
 
                         <div className="card-title">
-                            Get-Linked Hackathon Website
-                        </div>
+                            Tee's Exlusive E-commerce Website
 
-
-                        <div className="project-card-text">
-
-                            Get-Linked Hackathon website is a website is a web development challange released in 2022 to prepare for the get-linked hackathon
-                        </div>
-                    </div>
-
-                </div>
-
-                <div className="project-card">
-
-                    <div className="project-card-image">
-                        <img src={getlinked} alt="" className="card-image" />
-                    </div>
-
-                    <div className="project-card-details">
-
-                        <div className="card-sub-text">
-                            Web Development
-                        </div>
-
-                        <div className="card-title">
-                            Get-Linked Hackathon Website
-                        </div>
-
-
-                        <div className="project-card-text">
-
-                            Get-Linked Hackathon website is a website is a web development challange released in 2022 to prepare for the get-linked hackathon
-                        </div>
-                    </div>
-
-                </div>
-
-                <div className="project-card">
-
-                    <div className="project-card-image">
-                        <img src={getlinked} alt="" className="card-image" />
-                    </div>
-
-                    <div className="project-card-details">
-
-                        <div className="card-sub-text">
-                            Web Development
-                        </div>
-
-                        <div className="card-title">
-                            Get-Linked Hackathon Website
                         </div>
 
 

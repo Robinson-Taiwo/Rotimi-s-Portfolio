@@ -308,7 +308,11 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .skill-box{
-    @apply bg-[#1f1f1f] w-[9rem] h-[12rem] items-center justify-center flex flex-col gap-[1rem] rounded-2xl sphone:w-[8rem] sphone:h-[11rem] sphone:gap-[0.5rem]
+    @apply bg-[#1f1f1f] w-[9rem] h-[12rem] items-center justify-center flex flex-col gap-[1rem] rounded-2xl sphone:w-[8rem] sphone:h-[11rem] sphone:gap-[0.5rem] 
+}
+
+.skill-box:hover{
+    outline: 1px solid #30bef0;
 }
 
 .skill-block{
@@ -317,7 +321,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 
 .skill-col{
-    @apply grid grid-cols-2 gap-y-[1rem] pl-[1rem] grid
+    @apply grid grid-cols-2 gap-y-[1rem] pl-[1rem]  pt-[1rem] pb-[1rem]
 }
 
 
