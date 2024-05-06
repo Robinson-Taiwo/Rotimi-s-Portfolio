@@ -28,6 +28,8 @@ import redux from "/assets/icons/redux.svg"
 
 import tailwind from "/assets/icons/tailwind.svg"
 
+import python from "/assets/icons/python.svg"
+
 import rightArrow from "/assets/icons/arrow-up-right.svg"
 
 
@@ -45,9 +47,14 @@ import kwtmss from "/assets/images/kwtmss.png"
 import finsweet from "/assets/images/finsweet.png"
 
 import store from "/assets/images/store.png"
+import me from "/assets/images/me.png"
+
+import azimah from "/assets/images/azimah.png"
+import about from "/assets/images/about.jpg"
 
 
-import t from "/assets/images/omo_3.png"
+
+// import t from "/assets/images/omo_3.png"
 
 import "./Home.css"
 
@@ -127,44 +134,54 @@ const Home: FC = () => {
             </div>
 
 
-            <section className="hero-section">
+            <section className="hero-sectiond">
 
 
 
-                <h2 className="sub-heading">
-                    Hello, i'm <span>&#9995;</span>
-                </h2>
+                <div className="first-hero">
 
-                <h1 className="big-text">
-                    Omoyeni Taiwo Samuel
-                </h1>
+                    <h2 className="sub-heading">
+                        Hello, i'm <span>&#9995;</span>
+                    </h2>
 
-                <p className="hero-section-title">
-                    ~ Frontend Developer <span>&#128102;</span>
-                </p>
+                    <h1 className="big-text">
+                        Omoyeni .S. Taiwo
+                    </h1>
 
-                <p className="hero-section-text">
+                    <p className="hero-section-title">
+                        Frontend Developer <span>&#128102;</span>
+                    </p>
 
-                    Welcome to my digital realm, where innovation meets design. 🚀   I transform ideas into immersive experiences that captivate, inspire, and leave a lasting impression.
-
-                </p>
+                    <p className="hero-section-text">
 
 
-                <div className="check-button">
+                        Welcome to my digital realm, where innovation meets design. 🚀   I transform ideas into immersive experiences that captivate, inspire, and leave a lasting impression.
 
-                    <div className="hero-section-button">
-                        Hire Me  <span><img className='greater' src={gr} alt="" /></span>
+                    </p>
+
+
+                    <div className="check-button">
+
+                        <div className="hero-section-button">
+                            Hire Me  <span><img className='greater' src={gr} alt="" /></span>
+                        </div>
+
+
+                        <div className="download-resume">
+                            Download Resume <span className='ml-[0.4rem]' ><img className='greater' src={wa} alt="" /></span>
+                        </div>
+
                     </div>
 
-
-                    <div className="download-resume">
-                        Download Resume <span className='ml-[0.4rem]' ><img className='greater' src={wa} alt="" /></span>
-                    </div>
 
                 </div>
 
 
-                <section className="stat">
+
+
+
+
+                <section className="statd">
 
                     <div className="stat-coli ">
 
@@ -214,10 +231,17 @@ const Home: FC = () => {
 
 
 
-                <div className="picture-container">
+                <div className="dpc">
 
 
-                    <img src={t} className='taiwo' alt="" />
+                    <div className="picture-container">
+                        <div className="taiwo">
+                            <img src={me} alt="" className="me_pm" />
+                        </div>
+
+
+
+                    </div>
 
                 </div>
 
@@ -227,250 +251,433 @@ const Home: FC = () => {
             </section>
 
 
-            <section className="about_me">
 
-                <h4 className="aboutme">
-                    About Me
-                </h4>
-
-                <h1 className="about_h">
-                    Replicating Your <span className="wild"> Wildest Immagination</span> On The Web
-                </h1>
+            <section className="hero-section">
 
 
-                <div className="about_texts">
-                    <p>
-                        I am an Entrpreneur, Publick Speaker and web developer with a passion for creating responsive and functional websites. Being proficient in HTML, CSS, Javascript and React.js, i build websites from simple landing pages to complex sites with multiple functionalities
+
+                <div className="first-hero">
+
+                    <h2 className="sub-heading">
+                        Hello, i'm <span>&#9995;</span>
+                    </h2>
+
+                    <h1 className="big-text">
+                        Omoyeni .S. Taiwo
+                    </h1>
+
+                    <p className="hero-section-title">
+                        Frontend Developer <span>&#128102;</span>
                     </p>
 
-                    <ul className="lists">
-
-                        <li className="list">
-
-                            <img src={check} alt="" className="check" />
-
-                            <p>Responsive Web Design</p>
-
-                        </li>
-                        <li className="list">
-
-                            <img src={check} alt="" className="check" />
-
-                            <p>Web Development</p>
+                    <p className="hero-section-text">
 
 
-                        </li>
-                        <li className="list">
+                        Welcome to my digital realm, where innovation meets design. 🚀   I transform ideas into immersive experiences that captivate, inspire, and leave a lasting impression.
 
-                            <img src={check} alt="" className="check" />
+                    </p>
 
-                            <p>Problem Solving</p>
 
-                        </li>
-                        <li className="list">
+                    <div className="check-button">
 
-                            <img src={check} alt="" className="check" />
+                        <div className="hero-section-button">
+                            Hire Me  <span><img className='greater' src={gr} alt="" /></span>
+                        </div>
 
-                            <p>Entrepreneur</p>
 
-                        </li>
-                        <li className="list">
+                        <div className="download-resume">
+                            Download Resume <span className='ml-[0.4rem]' ><img className='greater' src={wa} alt="" /></span>
+                        </div>
 
-                            <img src={check} alt="" className="check" />
+                    </div>
 
-                            <p>Public Speaking</p>
-
-                        </li>
-
-                    </ul>
 
                 </div>
 
-                <div className="precontact-u">
 
-                    <div className="pre-contact-details">
+                <div className="picture-container">
+                    <div className="taiwo">
+                        <img src={me} alt="" className="me_pm" />
+                    </div>
 
-                        <div className="pre-contact-us-left">
-                            <img src={message} alt="" className="pre-c-" />
 
+
+                </div>
+
+
+
+                <section className="stat">
+
+                    <div className="stat-coli ">
+
+                        <div className="num-stat">
+                            5+
                         </div>
 
-                        <div className="pre-contact-us-right">
+                        <div className="stat-text">
 
-                            <div className="email-us">
-                                Send an Email
-                            </div>
-
-                            <div className="pre-contact-email">
-                                omoyenisamuel66@gmail.com
-                            </div>
+                            completed projects
                         </div>
 
 
                     </div>
 
 
+                    <div className="stat-col">
 
-                    <div className="pre-contact-details">
-
-                        <div className="pre-contact-us-left">
-                            <img src={call} alt="" className="pre-c-" />
+                        <div className="num-stat">
+                            2+
                         </div>
 
-                        <div className="pre-contact-us-right">
+                        <div className="stat-text">
 
-                            <div className="email-us">
-                                Make A Call
-                            </div>
-
-                            <div className="pre-contact-email">
-                                +234 80888704731
-                            </div>
+                            Years Of Experience
                         </div>
 
 
                     </div>
 
-                </div>
+
+                    <div className="stat-col">
+
+                        <div className="num-stat">
+                            100%
+                        </div>
+
+                        <div className="stat-text">
+
+                            Delivery Rate
+                        </div>
+
+
+                    </div>
+
+                </section>
+                {/* <div className="second-hero">
+
+
+                </div> */}
+
+
+
+
+
+
+
+
 
             </section>
+
+
+            <div className="about-me-container">
+
+
+                <div className="about-me-first">
+
+                    <section className="about_me">
+
+                        <h4 className="aboutme">
+                            About Me
+                        </h4>
+
+                        <h1 className="about_h">
+                            Replicating Your <span className="wild"> Wildest Immagination</span> On The Web
+                        </h1>
+
+
+                        <div className="about_texts">
+                            <p>
+                                I am an Entrpreneur, Public Speaker and web developer with a passion for creating responsive and functional websites. Being proficient in HTML, CSS, Javascript and React.js, i build websites from simple landing pages to complex sites with multiple functionalities
+                            </p>
+
+                            <ul className="lists">
+
+                                <li className="list">
+
+                                    <img src={check} alt="" className="check" />
+
+                                    <p>Responsive Web Design</p>
+
+                                </li>
+                                <li className="list">
+
+                                    <img src={check} alt="" className="check" />
+
+                                    <p>Web Development</p>
+
+
+                                </li>
+                                <li className="list">
+
+                                    <img src={check} alt="" className="check" />
+
+                                    <p>Problem Solving</p>
+
+                                </li>
+                                <li className="list">
+
+                                    <img src={check} alt="" className="check" />
+
+                                    <p>Entrepreneur</p>
+
+                                </li>
+                                <li className="list">
+
+                                    <img src={check} alt="" className="check" />
+
+                                    <p>Public Speaking</p>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div className="precontact-u">
+
+                            <div className="pre-contact-details">
+
+                                <div className="pre-contact-us-left">
+                                    <img src={message} alt="" className="pre-c-" />
+
+                                </div>
+
+                                <div className="pre-contact-us-right">
+
+                                    <div className="email-us">
+                                        Send an Email
+                                    </div>
+
+                                    <div className="pre-contact-email">
+                                        omoyenisamuel66@gmail.com
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div className="pre-contact-details">
+
+                                <div className="pre-contact-us-left">
+                                    <img src={call} alt="" className="pre-c-" />
+                                </div>
+
+                                <div className="pre-contact-us-right">
+
+                                    <div className="email-us">
+                                        Make A Call
+                                    </div>
+
+                                    <div className="pre-contact-email">
+                                        +234 80888704731
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+                    <div className="about-me-second ">
+                        <img src={about} alt="" className="ssss" />
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
 
 
             <section className="resume">
 
+
                 <img src={resume} alt="" className="resume-icon" />
 
-                <h2 className="my-resume-text">
-                    my Resume
-                </h2>
+                <div className="real-resume">
 
-                <h1>Real <span className='problem-solu
+                    <h2 className="my-resume-text">
+                        my Resume
+                    </h2>
+
+                    <h1>Real <span className='problem-solu
                 ' >problem Solution</span> Experience</h1>
 
 
 
-                <div className="experience-section">
+                    <div className="experience-section">
 
-                    <div className="es-left">
+                        <div className="es-left">
 
-                        <div className="exp-div">
+                            <div className="exp-div">
 
-                            <div className="exp-div-left">
-                                <img className='right-arrow' src={rightArrow} alt="" />
+                                <div className="exp-div-lefti">
+                                    <img className='right-arrow' src={rightArrow} alt="" />
+
+                                </div>
+
+                                <div className="exp-div-right">
+
+                                    <div className="exp-time">
+                                        2023 - present
+                                    </div>
+
+                                    <div className="exp-role">
+                                        Frontend Web Developer
+                                    </div>
+
+                                    <div className="exp-company">
+                                        Information and Technology Professionals Association
+                                    </div>
+
+                                </div>
+
+
+
+
 
                             </div>
 
-                            <div className="exp-div-right">
+                            <div className="exp-div">
 
-                                <div className="exp-time">
-                                    2023 - present
+                                <div className="exp-div-left">
+                                    <img className='right-arrow' src={rightArrow} alt="" />
+
                                 </div>
 
-                                <div className="exp-role">
-                                    Frontend Web Developer
+                                <div className="exp-div-right">
+
+                                    <div className="exp-time">
+                                        2024 - present
+                                    </div>
+
+                                    <div className="exp-role">
+                                        Frontend Developer freelancer
+                                    </div>
+
+                                    <div className="exp-company">
+                                        Fiverr
+                                    </div>
+
                                 </div>
 
-                                <div className="exp-company">
-                                    Information and Technology Professionals Association
-                                </div>
+
 
                             </div>
 
+                        </div>
+
+
+                        <div className="es-right">
+                            <div className="exp-div">
+
+                                <div className="exp-div-left">
+                                    <img className='right-arrow' src={rightArrow} alt="" />
+
+                                </div>
+
+                                <div className="exp-div-right">
+
+                                    <div className="exp-time">
+                                        2023 - present
+                                    </div>
+
+                                    <div className="exp-role">
+                                        Frontend Web Developer (intern)
+                                    </div>
+
+                                    <div className="exp-company">
+                                        Oluadepe Farms Nigeria LTD (OFNL)
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+
+
+
+                            <div className="exp-div">
+
+                                <div className="exp-div-left">
+                                    <img className='right-arrow' src={rightArrow} alt="" />
+
+                                </div>
+
+                                <div className="exp-div-right">
+
+                                    <div className="exp-time">
+                                        2024
+                                    </div>
+
+                                    <div className="exp-role">
+                                        Frontend Web Developer
+                                    </div>
+
+                                    <div className="exp-company">
+                                        Azimah Cold Foods
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
 
 
 
 
                         </div>
 
-                        <div className="exp-div">
-
-                            <div className="exp-div-left">
-                                <img className='right-arrow' src={rightArrow} alt="" />
-
-                            </div>
-
-                            <div className="exp-div-right">
-
-                                <div className="exp-time">
-                                    2024 - present
-                                </div>
-
-                                <div className="exp-role">
-                                    Frontend Developer freelancer
-                                </div>
-
-                                <div className="exp-company">
-                                    Fiverr
-                                </div>
-
-                            </div>
 
 
 
-                        </div>
+
 
                     </div>
-
-
-                    <div className="es-right">
-                        <div className="exp-div">
-
-                            <div className="exp-div-left">
-                                <img className='right-arrow' src={rightArrow} alt="" />
-
-                            </div>
-
-                            <div className="exp-div-right">
-
-                                <div className="exp-time">
-                                    2023 - present
-                                </div>
-
-                                <div className="exp-role">
-                                    Frontend Web Developer (intern)
-                                </div>
-
-                                <div className="exp-company">
-                                    Oluadepe Farms Nigeria LTD (OFNL)
-                                </div>
-
-                            </div>
-
-
-
-                        </div>
-
-                    </div>
-
 
                 </div>
 
 
-
-
-
             </section>
+
+
+
             <section className="my-skills">
 
-                <h5 className="my-skills-text">
+                <div className="skills-textss">
 
-                    My Skils
-                </h5>
+                    <h5 className="my-skills-text">
 
-                <h2 className="skills-big-text">
-                    Let's Explore My Popular <span className='skills-colour' >Skills & Experience</span>
+                        My Skils
+                    </h5>
+
+                    <span className="skills-big-text">
+                        Let's Explore My Popular  Skills &  <span className='skills-colour'>
+                            Experience
+                        </span>
 
 
-                </h2>
+                    </span>
 
-                <p className="skills-text">
+                    <p className="skills-text">
 
-                    with a total of 2+ years learning and writing code, i have learnt a great deal about several Programming Languages, libraries and frameworks. building projects from simple to complex.
+                        with a total of 2+ years learning and writing code, i have learnt a great deal about several Programming Languages, libraries and frameworks. building projects from simple to complex.
 
-                </p>
+                    </p>
 
-                <div className="skill-button">
-                    Learn More <img className='greater' src={gr} alt="" />
+                    <div className="skill-button">
+                        Learn More <img className='greater' src={gr} alt="" />
+                    </div>
+
                 </div>
 
 
@@ -636,6 +843,25 @@ const Home: FC = () => {
                         </div>
 
 
+
+                        <div className="skill-box">
+
+                            <div className="skill-box-icon">
+                                <img src={python} alt="" className="box-icon" />
+                            </div>
+
+                            <div className="skill-box-title">
+                                python
+                            </div>
+
+                            <div className="skill-box-stat">
+                                95%
+                            </div>
+
+
+                        </div>
+
+
                     </div>
 
 
@@ -693,7 +919,7 @@ const Home: FC = () => {
 
                 </div>
 
-                <div className="project-card">
+                <div className="project-cardd  ">
 
                     <div className="project-card-image">
                         <img src={itpa} alt="" className="card-image" />
@@ -712,7 +938,7 @@ const Home: FC = () => {
 
                         <div className="project-card-text">
 
-                            Official website for information technology professional association built eith React.js and Tailwind css
+                            Official website for information technology professional association built with React.js and Tailwind css
                         </div>
                     </div>
 
@@ -743,7 +969,7 @@ const Home: FC = () => {
 
                 </div>
 
-                <div className="project-card">
+                <div className="project-cardd">
 
                     <div className="project-card-image">
                         <img src={finsweet} alt="" className="card-image" />
@@ -752,7 +978,7 @@ const Home: FC = () => {
                     <div className="project-card-details">
 
                         <div className="card-sub-text">
-                            Web Development
+                            Web Development (unfinished project with only desktop view)
                         </div>
 
                         <div className="card-title">
@@ -793,7 +1019,7 @@ const Home: FC = () => {
 
                 </div>
 
-                <div className="project-card">
+                <div className="project-cardd">
 
                     <div className="project-card-image">
                         <img src={store} alt="" className="card-image" />
@@ -819,6 +1045,32 @@ const Home: FC = () => {
 
                 </div>
 
+
+                <div className="project-card">
+
+                    <div className="project-card-image">
+                        <img src={azimah} alt="" className="card-image" />
+                    </div>
+
+                    <div className="project-card-details">
+
+                        <div className="card-sub-text">
+                            Web Development
+                        </div>
+
+                        <div className="card-title">
+                            Azimah Cold Foods
+
+                        </div>
+
+
+                        <div className="project-card-text">
+
+                            A website developed with typescript and tailwindcss for azimah ltd to show visibility of their company and aiding more information about them
+                        </div>
+                    </div>
+
+                </div>
 
 
             </div>

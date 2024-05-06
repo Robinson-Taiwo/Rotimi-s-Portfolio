@@ -13,7 +13,7 @@
 }
 
 .menu-icon{
-    @apply h-[1.5rem]
+    @apply h-[1.5rem] hidden
 }
 
 .hide{
@@ -36,7 +36,7 @@
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
   
       
-    @apply text-[1.5rem]
+    @apply text-[1.5rem] desktop:text-[2.5rem]
 
 }
 
@@ -56,12 +56,47 @@
     @apply border-t-[0.5px] py-[1.5rem] w-[100%] px-[1rem]
 }
 
-.taiwo{
+/* .taiwo{
     @apply h-[45vh]
-}
+} */
 
 .hero-section{
-    @apply flex flex-col px-[1rem] pt-[6rem]
+    @apply flex flex-col px-[1rem] pt-[6rem]   wide:px-[5%] wide:flex-row  wide:justify-between wide:items-center desktop:hidden wide:flex
+}
+
+.hero-sectiond{
+    @apply wide:hidden flex-col px-[1rem] pt-[6rem] desktop:px-[1rem]  wide:px-[8.5rem] desktop:flex-row flex-wrap  desktop:justify-between desktop:items-center sphone:hidden desktop:flex 
+}
+
+.dpc{
+    @apply w-[100%] desktop:flex desktop:items-center justify-center wide:hidden  mt-[4rem]
+}
+
+.first-hero{
+    @apply desktop:w-[26.6rem] desktop:min-h-[23.5rem]
+}
+
+
+.second-hero{
+    @apply flex desktop:grid desktop:w-[100%] desktop:grid-cols-3
+}
+
+.taiwo{
+    /* background-image: url(/assets/images/omo_3.png); */
+    @apply  h-[25rem]   w-[100%] bg-no-repeat bg-center bg-cover desktop:w-[100%] desktop:h-[100%] items-center flex  justify-center
+}
+
+.me_pm{
+    @apply desktop:h-[100%] desktop:w-[80%]
+}
+
+.picture-container{
+    /* shape-outside: url(/public/assets/images/progress-shape.png);
+    shape-image-threshold: .2; */
+    background-image:url(/public/assets/images/progress-shape.png);
+
+    @apply 
+    mt-[4rem] desktop:mt-[0rem]   w-[100%] h-[100%] flex items-center justify-center desktop:h-[38rem] desktop:w-[36rem] rounded-[50%] bg-center bg-cover bg-no-repeat
 }
 
 
@@ -84,36 +119,36 @@
     /* text-shadow: -1px -1px 0 #535353, 1px -1px 0 #535353, -1px 1px 0 #535353, 1px 1px 0 #535353;  */
    
 
-    @apply flex items-center  justify-center text-[2.9rem]  font-semibold sphone:text-[2.5rem] text-[#3ebef0] 
+    @apply flex items-center  justify-center text-[2.9rem]  font-semibold sphone:text-[2.5rem] text-[#3ebef0]  desktop:text-[3rem]
 }
 
 
 .hero-section-title{
-    @apply py-[0.5rem] px-[1rem] text-[1.1rem] sphone:text-[0.9rem]
+    @apply py-[0.5rem] px-[1rem] text-[1.1rem] sphone:text-[0.9rem] desktop:text-[2rem]
 }
 
 .hero-section-text{
     /* font-family: 'Neucha', cursive; */
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    @apply  flex items-center justify-center  text-[1rem] mb-[1rem] mt-[1rem]  px-[0rem] text-[#535353] sphone:text-[0.8rem]
+    @apply  flex items-center justify-center  text-[1rem] mb-[1rem] mt-[1rem]  px-[0rem] text-[#535353] sphone:text-[0.8rem] desktop:text-[1.2rem] 
 }
 
 .hero-section-button{
     
     box-shadow: rgba(14, 81, 227, 0.25) 0px 54px 55px, rgba(14, 81, 227, 0.25) 0px -12px 30px, rgba(14, 81, 227, 0.25) 0px 4px 6px, rgba(14, 81, 227, 0.25) 0px 12px 13px, rgba(14, 81, 227, 0.25) 0px -3px 5px;
 
-    @apply px-[1rem]  py-[0.5rem] bg-[#3ebef0] w-fit rounded-lg font-bold flex items-center justify-center   sphone:text-[0.6rem] text-[0.8rem]  
+    @apply px-[1rem]  py-[0.5rem] bg-[#3ebef0] w-fit rounded-lg font-bold flex items-center justify-center   sphone:text-[0.6rem] text-[0.8rem]  desktop:text-[1rem] desktop:px-[1.8rem] desktop:py-[0.8rem]
 
 }
 
 
 .check-button{
-    @apply flex items-center text-black  justify-around mt-[1rem]
+    @apply flex items-center text-black  justify-between mt-[1rem] desktop:pr-[4rem]
 }
 
 .sub-heading{
    
-    @apply text-[2.1rem] text-[#535353] 
+    @apply text-[2.1rem] text-[#535353] desktop:text-[3rem]
 }
 
 .download-resume{
@@ -125,8 +160,13 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .stat{
-    @apply h-[25rem] rounded-lg w-[93vw] bg-black mt-[2rem]
+    @apply h-[25rem] rounded-lg w-[93vw] bg-black mt-[2rem] wide:w-[16.81rem] desktop:w-[24.375rem]
 }
+
+.statd{
+    @apply h-[25rem] rounded-lg w-[93vw] bg-black mt-[2rem] wide:w-[16.81rem] desktop:w-[24.375rem] pl-[2rem]
+}
+
 
 .stat-col{
     border-top: 1px solid #535353;
@@ -149,15 +189,28 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 
 .about_me{
-    @apply flex flex-col bg-black w-[100vw]  mt-[8rem] pt-[4rem] px-[1rem] pb-[1.5rem]
+    @apply flex flex-col bg-black w-[100vw]  mt-[8rem] pt-[4rem] px-[1rem] pb-[1.5rem] wide:max-w-[40.7rem] tablet:max-w-[100%] desktop:max-w-[38rem]
+}
+
+
+.ssss{
+    @apply wide:min-h-[30rem]
 }
 
 .aboutme{
     @apply text-[#535353] text-[1.2rem] mb-[1rem] 
 }
 
+.about-me-second{
+    @apply flex justify-end items-end  wide:w-[100%]  wide:h-[100%] desktop:w-[19rem]  desktop:h-[24rem]
+}
+
+.about-me-container{
+    @apply wide:px-[5%] wide:mt-[4rem]  wide:w-[100vw] 
+}
+
 .about_h{
-    @apply text-[1.8rem] font-medium text-white 
+    @apply text-[1.8rem] desktop:text-[2.5rem] font-medium text-white 
 }
 
 .wild{
@@ -165,23 +218,24 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .about_texts{
-    @apply mt-[2rem] text-[#535353] pr-[0.5rem] text-[1.rem]
+    @apply mt-[2rem] text-[#535353] pr-[0.5rem] text-[1.rem] desktop:text-[1.1rem]
 }
 
-.taiwo{
-    @apply -rotate-2 h-[20rem]  bg-[black]  
+.about-me-first{
+    @apply wide:grid wide:grid-cols-2 bg-black wide:px-[8%] desktop:content-center desktop:pb-[8.43rem] desktop:px-[3rem] tablet:flex tablet:flex-col tablet:items-center desktop:flex-row desktop:justify-center desktop:items-center 
 }
 
-.picture-container{
-    @apply rounded-full bg-[#3ebef0]
-    mt-[4rem] 
+.skills-textss{
+    @apply  desktop:w-[40%] 
 }
+
+
 .precontact-u{
-    @apply rounded-lg  bg-[#1f1f1f] flex flex-col gap-[1rem] px-[1rem] py-[1rem] mt-[3rem]
+    @apply rounded-lg  bg-[#1f1f1f] flex flex-col gap-[1rem] px-[1rem] py-[1rem] mt-[3rem] wide:flex-row desktop:w-[85%] desktop:py-[1.5rem] desktop:rounded-3xl desktop:flex-col
 }
 
 .pre-contact-email{
-    @apply flex flex-col gap-[1rem]
+    @apply flex flex-col gap-[1rem] desktop:text-[1.4rem]
 }
 
 .pre-contact-details{
@@ -189,7 +243,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .email-us{
-    @apply text-[0.9rem]
+    @apply text-[0.9rem] desktop:text-[0.9rem]
 }
 
 .pre-contact-email{
@@ -205,11 +259,11 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .list{
-    @apply text-white text-[0.9rem] flex flex-row gap-[1.5rem] items-center 
+    @apply text-white text-[0.9rem] flex flex-row gap-[1.5rem] items-center desktop:text-[1.2rem]
 }
 
 .lists{
-    @apply mt-[2rem] flex flex-col gap-[1.5rem]
+    @apply mt-[2rem] desktop:grid desktop:grid-cols-2  flex flex-col gap-[1.5rem]
 }
 
 .check{
@@ -217,12 +271,16 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .resume-icon{
-    @apply h-[10rem] mt-[4rem] ml-[0rem]
+    @apply h-[10rem] mt-[4rem] ml-[0rem] desktop:h-[20rem] desktop:w-[20rem] desktop:mt-[0rem]
 
 }
 
 .resume{
-    @apply px-[1rem]
+    @apply px-[1rem] desktop:flex  desktop:flex-row  desktop:pt-[8rem] wide:px-[10rem] wide:justify-center 
+}
+
+.real-resume{
+    @apply flex flex-col desktop:w-[100%] wide:w-fit
 }
 
 .my-resume-text{
@@ -234,12 +292,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .resume h1{
-    @apply text-[2rem] 
+    @apply text-[2rem] desktop:text-[3rem] desktop:w-[80%] desktop:font-medium wide:w-[60%]
 }
 
 
 .experience-section{
-    @apply bg-[#1f1f1f] px-[1rem] py-[1.7rem] rounded-lg flex flex-col mt-[2rem]
+    @apply bg-[#1f1f1f] px-[1rem] py-[1.7rem] rounded-3xl flex flex-col mt-[2rem] desktop:grid desktop:grid-cols-2 wide:max-w-[60rem]
 }
 
 .exp-div{
@@ -252,6 +310,10 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     @apply bg-[black] rounded-[100%] items-center justify-center flex h-[2.5rem] w-[2.5rem] mt-[1rem] hover:bg-[#30bef0]
 }
 
+.exp-div-lefti{
+    @apply bg-[black] rounded-[100%] items-center justify-center flex h-[2.4rem] w-[2.7rem] mt-[1rem] hover:bg-[#30bef0]
+}
+
 .right-arrow{
     @apply h-[1.2rem] w-[1.2rem] 
 }
@@ -261,7 +323,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .exp-company{
-    @apply text-[#727272] text-[0.8rem]
+    @apply text-[#727272] text-[0.8rem] desktop:text-[1rem]
 }
 
 .exp-div-right{
@@ -269,17 +331,21 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .es-left{
-    @apply flex flex-col 
+    @apply flex flex-col  desktop:border-r-[2px] desktop:border-r-[#3c3a3a] desktop:mr-[1rem]
 }
 
 
+.exp-role{
+    @apply desktop:text-[1.5rem] desktop:font-medium desktop:w-[80%]
+}
+
 .es-right{
-    @apply flex flex-col 
+    @apply flex flex-col
 }
 
 
 .my-skills{
-    @apply bg-black pb-[7rem] pt-[6rem] mt-[6rem] px-[0.8rem]
+    @apply bg-black pb-[7rem] pt-[6rem] mt-[6rem] px-[0.8rem] desktop:flex desktop:flex-row  desktop:px-[3rem]
 }
 
 .my-skills-text{
@@ -287,7 +353,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .skills-big-text{
-    @apply  text-[1.8rem] mb-[2rem] font-medium flex flex-col
+    @apply  text-[1.8rem] mb-[2rem] font-medium flex flex-col desktop:text-[2.5rem] desktop:w-[100%]
 }
 
 .skills-colour{
@@ -296,11 +362,11 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 
 .skills-text{
-    @apply text-[1rem] text-[#727272] leading-8
+    @apply text-[1rem] text-[#727272] leading-8 desktop:w-[90%]
 }
 
 .skill-button{
-    @apply text-black mt-[1.5rem] w-fit rounded-2xl bg-[#30bef0] px-[1.8rem] py-[0.8rem] flex flex-row  gap-[0.4rem] items-center font-bold 
+    @apply text-black mt-[1.5rem] w-fit rounded-2xl bg-[#30bef0] px-[1.1rem] py-[0.8rem] flex flex-row  gap-[0.4rem] items-center font-bold text-[0.8rem] desktop:py-[1.1rem]  desktop:px-[1.5rem] desktop:text-[1rem]
 }
 
 .skill-box-icon{
@@ -316,12 +382,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .skill-block{
-    @apply flex flex-col mt-[2rem]
+    @apply  mt-[2rem] desktop:flex-grow
 }
 
 
 .skill-col{
-    @apply grid grid-cols-2 gap-y-[1rem] pl-[1rem]  pt-[1rem] pb-[1rem]
+    @apply grid desktop:grid-cols-3 gap-y-[1rem] pl-[1rem]  pt-[1rem] pb-[1rem] content-center wide:grid-cols-4 desktop:gap-x-[0.0rem] self-center items-center justify-center desktop:m-auto
 }
 
 
@@ -334,7 +400,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .latest-work{
-    @apply pt-[5rem] pb-[3rem]  bg-[#222121]
+    @apply pt-[5rem] pb-[3rem]  bg-[#222121] wide:px-[10%] desktop:px-[4rem]
 }
 
 .blue-text{
@@ -354,16 +420,20 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 
+.project-cardd{
 
+    @apply flex flex-col mt-[6rem] desktop:w-[100%]  desktop:flex  desktop:flex-row-reverse desktop:gap-[2rem] 
+}
 
 /* project card section */
 
 .project-card{
-    @apply flex flex-col mt-[6rem]
+
+    @apply flex flex-col mt-[6rem] desktop:w-[100%]  desktop:flex  desktop:flex-row desktop:gap-[2rem] 
 }
 
 .card-image{
-    @apply w-[90%] 
+    @apply w-[90%] wide:w-[39rem] wide:h-[31rem] desktop:h-[24rem] 
 }
 
 .project-card-image{
@@ -371,17 +441,17 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .project-card-details{
-    @apply flex mt-[1rem] flex-col px-[1rem] gap-[1rem]
+    @apply flex mt-[1rem] flex-col px-[1rem] gap-[1rem] desktop:w-[50%]
 }
 
 .card-sub-text{
-    @apply text-[0.95rem] text-[#30bef0] 
+    @apply text-[0.95rem] text-[#30bef0]  
 }
 
 .card-title{
-    @apply text-[1.5rem] font-semibold hover:underline hover:text-[#30bef0] duration-75 ease-in-out transition-all
+    @apply text-[1.5rem] font-medium hover:underline hover:text-[#30bef0] duration-75 ease-in-out transition-all desktop:text-[2.8rem] desktop:w-[30rem]
 }
 
 .project-card-text{
-    @apply text-[#a4a2a2] text-[0.9rem]
+    @apply text-[#a4a2a2] text-[0.9rem] desktop:mt-[2rem]  desktop:text-[1rem]
 }
