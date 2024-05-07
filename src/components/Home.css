@@ -61,11 +61,11 @@
 } */
 
 .hero-section{
-    @apply flex flex-col px-[1rem] pt-[6rem]   wide:px-[5%] wide:flex-row  wide:justify-between wide:items-center desktop:hidden wide:flex
+    @apply flex flex-col px-[1rem] pt-[6rem]   wide:px-[5%] wide:flex-row  wide:justify-between wide:items-center desktop:hidden wide:flex mb-[3rem]
 }
 
 .hero-sectiond{
-    @apply wide:hidden flex-col px-[1rem] pt-[6rem] desktop:px-[1rem]  wide:px-[8.5rem] desktop:flex-row flex-wrap  desktop:justify-between desktop:items-center sphone:hidden desktop:flex 
+    @apply wide:hidden flex-col px-[1rem] pt-[6rem] desktop:px-[1rem]  wide:px-[8.5rem] desktop:flex-row flex-wrap  desktop:justify-between desktop:items-center sphone:hidden desktop:flex  hidden 
 }
 
 .dpc{
@@ -93,7 +93,7 @@
 .picture-container{
     /* shape-outside: url(/public/assets/images/progress-shape.png);
     shape-image-threshold: .2; */
-    background-image:url(/public/assets/images/progress-shape.png);
+    background-image:url(/assets/images/progress-shape.png);
 
     @apply 
     mt-[4rem] desktop:mt-[0rem]   w-[100%] h-[100%] flex items-center justify-center desktop:h-[38rem] desktop:w-[36rem] rounded-[50%] bg-center bg-cover bg-no-repeat
@@ -226,7 +226,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .skills-textss{
-    @apply  desktop:w-[40%] 
+    @apply  desktop:w-[60%]  desktop:px-[5%] 
 }
 
 
@@ -345,7 +345,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 
 .my-skills{
-    @apply bg-black pb-[7rem] pt-[6rem] mt-[6rem] px-[0.8rem] desktop:flex desktop:flex-row  desktop:px-[3rem]
+    @apply bg-black pb-[7rem] pt-[5rem] mt-[6rem] px-[0.8rem] desktop:flex desktop:flex-row  desktop:px-[3rem]
 }
 
 .my-skills-text{
@@ -362,7 +362,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 
 .skills-text{
-    @apply text-[1rem] text-[#727272] leading-8 desktop:w-[90%]
+    @apply text-[1rem] text-[#727272] leading-8 desktop:w-[60%]
 }
 
 .skill-button{
@@ -382,12 +382,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .skill-block{
-    @apply  mt-[2rem] desktop:flex-grow
+    @apply  mt-[2rem] desktop:flex-grow desktop:mt-[0rem]
 }
 
 
 .skill-col{
-    @apply grid desktop:grid-cols-3 gap-y-[1rem] pl-[1rem]  pt-[1rem] pb-[1rem] content-center wide:grid-cols-4 desktop:gap-x-[0.0rem] self-center items-center justify-center desktop:m-auto
+    @apply desktop:grid desktop:grid-cols-3 gap-y-[1rem] pl-[1rem]  pt-[1rem] pb-[1rem] content-center wide:grid-cols-4 desktop:gap-x-[0rem] items-center justify-between desktop:m-auto  flex-wrap flex  pr-[1rem]
 }
 
 
